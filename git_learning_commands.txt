@@ -1,0 +1,23 @@
+GIT:
+It is used for version control system to maintain the different versions of a code
+
+common commands:
+$ sign means waiting for your command
+
+- git config --global user.name "Your name here"
+- git config --global user.email "Your_email@example.com"
+- git config --list # for the details of your git hub account
+
+### You can create github repository in your git hub account and then create the same named repository in your local system and link both of the repository
+1. create a repository in your account
+2. mkdir "same named directory that you have created in the github account"
+3. change the directory to the newly created directory by using the command cd
+4. use git init to intialise the local git repository
+5. point to your local repository to the github repository that you just created in githun using the foillowing command
+		git remote add origin https://github.com/yourUsername/yourRepo.git
+ Now you have linked up you local repository with you remote repository
+6. Downloading or forking an existing repo, used to collaborate by downloading a copy of existing repo and making the changes and then pushing to the existing repo
+		git clone https://github.com/user/repoYouWantToFork.git
+ this will create a local copy of the repo you wanted to fork
+
+
