@@ -31,12 +31,15 @@
 // use of strings literal
 //           Writing a table
 
-tableFunction = function(){
-    var tableOf = 6;
+// tableFunction = function(){
+//     var tableOf = 6;
     
-    for(i=1; i<=10; i++){
-        console.log(`${tableOf} * ${i} = ${tableOf * i}`);
-    }
-}
+//     for(i=1; i<=10; i++){
+//         console.log(`${tableOf} * ${i} = ${tableOf * i}`);
+//     }
+// }
 
-tableFunction();
+// tableFunction();
+
+
+// Array and array operations
